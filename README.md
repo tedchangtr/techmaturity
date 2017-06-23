@@ -1,5 +1,5 @@
 # **Tech maturity by Ticketmaster** [![Build Status](https://travis-ci.org/Ticketmaster/techmaturity.svg?branch=master)](https://travis-ci.org/Ticketmaster/techmaturity) [![Code Climate](https://codeclimate.com/github/Ticketmaster/techmaturity/badges/gpa.svg)](https://codeclimate.com/github/Ticketmaster/techmaturity) [![Test Coverage](https://codeclimate.com/github/Ticketmaster/techmaturity/badges/coverage.svg)](https://codeclimate.com/github/Ticketmaster/techmaturity/coverage)
----- 
+----
 
 ## What is Tech maturity?
 Tech Maturity helps us identify growth opportunities to eliminate waste, set clearly defined targets, and measure progress all while we work toward the ultimate goal of continuous delivery.
@@ -23,7 +23,14 @@ Learn more about [Tech Maturity](https://tech.ticketmaster.com/2016/11/08/gettin
 1. [Get Docker](https://www.docker.com/get-docker)
 2. run `docker run -p 3000:3000 ticketmaster/techmaturity:2.0.0`
 3. open up `http://localhost:3000` in your web browser 🚀
-
+----
+## Set up instructions to get local working
+1. Download rvm. Install and use ruby version 2.4.1
+2. Install bundle using 'gem install bundle'
+3. Run 'bundle install'
+4. Run DB migration using 'rake db:migrate'
+5. Run 'rails s'
+3. open up `http://localhost:3000` in your web browser 🚀
 ----
 ## Contribution
 1. Fork the project
