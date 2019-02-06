@@ -37,3 +37,6 @@ bower.json
 
 .idea
 .DS_Store
+
+# Ignore jars created by intellij idea
+lib/built-in-stubs.jar
